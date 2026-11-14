@@ -535,7 +535,7 @@ async function getAIResponse(conversation) {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
-                    'Authorization': 'Bearer  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'
+                    'Authorization': 'Bearer  MY_KEY'
                 },
                 body: JSON.stringify({
                     model: 'gpt-6-luna',
